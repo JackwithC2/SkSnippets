@@ -161,18 +161,174 @@
     },
     "skript.events.sliverfishenter": {
         "prefix": "silverfish enter",
-        "body": ["silverfish enter", "\t"]
+        "body": ["silverfish enter:", "\t"]
     },
     "skript.events.sliverfishexit": {
         "prefix": "silverfish exit",
-        "body": ["silverfish exit", "\t"]
+        "body": ["silverfish exit:", "\t"]
     },
     "skript.events.fallingblockfall": {
         "prefix": "on falling block fall",
-        "body": ["on falling block fall", "\t"]
+        "body": ["on falling block fall:", "\t"]
     },
     "skript.events.fallingblockland": {
         "prefix": "on falling block land",
-        "body": ["on falling block land", "\t"]
+        "body": ["on falling block land:", "\t"]
+    },
+    "skript.events.entitydismount": {
+        "prefix": "on entity dismount",
+        "body": ["on dismount:", "\t"]
+    },
+    "skript.events.entityjump": {
+        "prefix": "on entity jump",
+        "body": ["on entity jump:", "\t"]
+    },
+    "skript.events.entitymount": {
+        "prefix": "on entity mount",
+        "body": ["on mount:", "\t"]
+    },
+    "skript.events.entityportal": {
+        "prefix": "on entity portal",
+        "body": ["on entity portal:", "\t"]
+    },
+    "skript.events.experiencechange": {
+        "prefix": "on experince change",
+        "body": ["on level progress change:", "\t"]
+    },
+    "skript.events.experiencespawn": {
+        "prefix": "on experince spawn",
+        "body": ["on xp spawn:", "\t"]
+    },
+    "skript.events.explode": {
+        "prefix": "on explode",
+        "body": ["on explosion:", "\t"]
+    },
+    "skript.events.explosionprime": {
+        "prefix": "on explosion prime",
+        "body": ["on explosion prime:", "\t"]
+    },
+    "skript.events.fade": {
+        "prefix": "on fade",
+        "body": ["on fade of snow or ice:", "\t"]
+    },
+    "skript.events.fireworkexplode": {
+        "prefix": "on firework explode",
+        "body": ["on firework explode:", "\t"]
+    },
+    "skript.events.fireworkexplodecolor": {
+        "prefix": "on firework explode w/color",
+        "body": ["on firework exploding colored light green:", "\t"]
+    },
+    "skript.events.firstjoin": {
+        "prefix": "on first join",
+        "body": ["on first join:", "\t"]
+    },
+    "skript.events.fishing": {
+        "prefix": "on fishing",
+        "body": ["on fish:", "\t"]
+    },
+    "skript.events.flighttoggle": {
+        "prefix": "on flight toggle",
+        "body": ["on flight toggle:", "\t"]
+    },
+    "skript.events.flow": {
+        "prefix": "on flow",
+        "body": ["on block flow:", "\t"]
+    },
+    "skript.events.form": {
+        "prefix": "on form",
+        "body": ["on form of snow:", "\t"]
+    },
+    "skript.events.fuelburn": {
+        "prefix": "on fuel burn",
+        "body": ["on fuel burning:", "\t"]
+    },
+    "skript.events.gamemodechange": {
+        "prefix": "on gamemode change",
+        "body": ["on gamemode change to adventure:", "\t"]
+    },
+    "skript.events.gildingstatechange": {
+        "prefix": "on gilding state change",
+        "body": ["on toggling gliding:", "\t"]
+    },
+    "skript.events.grow": {
+        "prefix": "on grow",
+        "body": ["on grow # of a tree", "\t"]
+    },
+    "skript.events.handitemswap": {
+        "prefix": "on hand item swap",
+        "body": ["on swap hand items:", "\t"]
+    },
+    "skript.events.heal": {
+        "prefix": "on heal",
+        "body": ["on heal", "\t"]
+    },
+    "skript.events.horsejump": {
+        "prefix": "on horsejump",
+        "body": ["on horse jump:", "\t"]
+    },
+    "skript.events.hungermeterchange": {
+        "prefix": "on hunger meter change",
+        "body": ["on food bar change:", "\t"]
+    },
+    "skript.events.ignition": {
+        "prefix": "on ignition",
+        "body": ["on block ingnite:", "\t"]
+    },
+    "skript.events.inventoryclick": {
+        "prefix": "on inventory click",
+        "body": ["on inventory click:", "\t"]
+    },
+    "skript.events.inventoryclose": {
+        "prefix": "on inventory close",
+        "body": ["on inventory close:", "\t"]
+    },
+    "skript.events.inventoryopen": {
+        "prefix": "on inventory open",
+        "body": ["on inventory open:", "\t"]
+    },
+    "skript.events.inventorypickup": {
+        "prefix": "on inventory pickup",
+        "body": ["on inventory pickup:", "\t"]
+    },
+    "skript.events.inventoryslotchange": {
+        "prefix": "on inventory slot change",
+        "body": ["on inventory slot change:", "\t"]
+    },
+    "skript.events.itembreak": {
+        "prefix": "on item break",
+        "body": ["on tool break:", "\t"]
+    },
+    "skript.events.itemdamage": {
+        "prefix": "on item damage",
+        "body": ["on item damage", "\t"]
+    },
+    "skript.events.itemdespawn": {
+        "prefix": "on item despawn",
+        "body": ["on item despawn of diamond:", "\t"]
+    },
+    "skript.events.itemmend": {
+        "prefix": "on item mend",
+        "body": ["on item mend:", "\t"]
+    },
+    "skript.events.itemmerge": {
+        "prefix": "on item merge",
+        "body": ["on item merge of gold blocks:", "\t"]
+    },
+    "skript.events.itemspawn": {
+        "prefix": "on item spawn",
+        "body": ["on item spawn of iron sword:", "\t"]
+    },
+    "skript.events.join": {
+        "prefix": "on join",
+        "body": ["on join:", "\t"]
+    },
+    "skript.events.jump": {
+        "prefix": "on jump",
+        "body": ["on jump:", "\t"]
+    },
+    "skript.events.kick": {
+        "prefix": "on kick",
+        "body": ["on kick:", "\t"]
     }
 }

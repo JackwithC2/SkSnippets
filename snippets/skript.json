@@ -1,0 +1,178 @@
+{
+    "skript.events.attime":{
+        "prefix": "on tool change",
+        "body": ["at 10:00 # at 7am in \"world\"", "\t"]
+    },
+    "skript.events.anvildamage":{
+        "prefix": "on anvil damage",
+        "body": ["on anvil damage:", "\t"]
+    },
+    "skript.events.anvilprepare":{
+        "prefix": "on anvil prepare",
+        "body": ["on anvil prepare:", "\t"]
+    },
+    "skript.events.cloudeffect": {
+        "prefix": "on area cloud effect",
+        "body": ["on area cloud effect:", "\t"]
+    },
+    "skript.events.armswing": {
+        "prefix": "on arm swing",
+        "body": ["on arm swing:", "\t"]
+    },
+    "skript.events.armorchange": {
+        "prefix": "on armor change",
+        "body": ["on armor change:", "\t"]     
+    },
+    "skript.events.bedenter": {
+        "prefix": "on bed enter",
+        "body": ["on bed enter:", "\t"]
+    },
+    "skript.events.bedleave": {
+        "prefix": "on player leaving a bed",
+        "body": ["on player leaving a bed:", "\t"]
+    },
+    "skript.events.blockdamage": {
+        "prefix": "on block damaging",
+        "body": ["on block damaging:", "\t"]
+    },
+    "skript.events.blockfertilize": {
+        "prefix": "on block fertilize",
+        "body": ["on block fertilize:", "\t"]
+    },
+    "skript.events.blockgrowth": {
+        "prefix": "on crop growth",
+        "body": ["on crop growth:", "\t"]
+    },
+    "skript.events.bookedit": {
+        "prefix": "on book edit",
+        "body": ["on book edit:", "\t"]
+    },
+    "skript.events.booksign": {
+        "prefix": "on book sign",
+        "body": ["on book sign:", "\t"]
+    },
+    "skript.events.mine": {
+        "prefix": "on mine",
+        "body": ["on mine", "\t"]
+    },
+    "skript.events.break": {
+        "prefix": "on break",
+        "body": ["on break", "\t"]
+    },
+    "skript.events.bucketempty": {
+        "prefix": "on bucket empty",
+        "body": ["on bucket empty:", "\t"]
+    },
+    "skript.events.bucketfill": {
+        "prefix": "on player filling a bucket",
+        "body": ["on player filling a bucket:", "\t"]
+    },
+    "skript.events.burn": {
+        "prefix": "on burn",
+        "body": ["on burn:", "\t"]
+    },
+    "skript.events.canbuildcheck": {
+        "prefix": "on block can build check",
+        "body": ["on block can build check:", "\t"]
+    },
+    "skript.events.chat": {
+        "prefix": "on chat",
+        "body": ["on chat:", "\t"]
+    },
+    "skript.events.chunkgenerate": {
+        "prefix": "on chunk generate",
+        "body": ["on chunk generate:", "\t"]
+    },
+    "skript.events.chunkload": {
+        "prefix": "on chunk load",
+        "body": ["on chunk load:", "\t"]
+    },
+    "skript.events.chunkunload": {
+        "prefix": "on chunk unload",
+        "body": ["on chunk unload:", "\t"]
+    },
+    "skript.events.click": {
+        "prefix": "on click",
+        "body": ["on click:", "\t"]
+    },
+    "skript.events.combust": {
+        "prefix": "on combust",
+        "body": ["on combust:", "\t"]
+    },
+    "skript.events.command": {
+        "prefix": "on command",
+        "body": ["on command \"/bruh\"", "\t"]
+    },
+    "skript.events.connect": {
+        "prefix": "on connect",
+        "body": ["on connect:", "\t"]
+    },
+    "skript.events.consume": {
+        "prefix": "on consume",
+        "body": ["on consume:", "\t"]
+    },
+    "skript.events.craft": {
+        "prefix": "on craft",
+        "body": ["on craft:", "\t"]
+    },
+    "skript.events.creeperpower": {
+        "prefix": "on creeper power",
+        "body": ["on creeper power:", "\t"]
+    },
+    "skript.events.damage": {
+        "prefix": "on damage",
+        "body": ["on damage:", "\t"]
+    },
+    "skript.events.death": {
+        "prefix": "on death",
+        "body": ["on death:", "\t"]
+    },
+    "skript.events.dispense": {
+        "prefix": "on dispense",
+        "body": ["on dispense of iron block:", "\t"]
+    },
+    "skript.events.drop": {
+        "prefix": "on drop",
+        "body": ["on drop:", "\t"]
+    },
+    "skript.events.eggthrow": {
+        "prefix": "on throw of an egg",
+        "body": ["on throw of an egg:", "\t"]
+    },
+    "skript.events.enchant": {
+        "prefix": "on enchant",
+        "body": ["on enchant:", "\t"]
+    },
+    "skript.events.enchantprepare": {
+        "prefix": "on enchant prepare",
+        "body": ["on enchant prepare:", "\t"]
+    },
+    "skript.events.endermanplace": {
+        "prefix": "on enderman place",
+        "body": ["on enderman place:", "\t"]
+    },
+    "skript.events.endermanpickup": {
+        "prefix": "on enderman pickup",
+        "body": ["on enderman pickup:", "\t"]
+    },
+    "skript.events.sheepeat": {
+        "prefix": "on sheep eat",
+        "body": ["on sheep eat:", "\t"]
+    },
+    "skript.events.sliverfishenter": {
+        "prefix": "silverfish enter",
+        "body": ["silverfish enter", "\t"]
+    },
+    "skript.events.sliverfishexit": {
+        "prefix": "silverfish exit",
+        "body": ["silverfish exit", "\t"]
+    },
+    "skript.events.fallingblockfall": {
+        "prefix": "on falling block fall",
+        "body": ["on falling block fall", "\t"]
+    },
+    "skript.events.fallingblockland": {
+        "prefix": "on falling block land",
+        "body": ["on falling block land", "\t"]
+    }
+}

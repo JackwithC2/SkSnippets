@@ -1,0 +1,49 @@
+{
+	"name": "skript-snippets-vsc",
+	"displayName": "skript snippets",
+	"publisher": "Jackwith",
+	"description": "Skript Snippets for new coders",
+	"version": "1.0.1",
+	"engines": {
+		"vscode": "^1.79.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JackwithC2/SkSnippets"
+	},
+	"icon": "icon.png",
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "skript",
+				"aliases": [
+					"Skript",
+					"sk"
+				],
+				"extensions": [
+					".sk"
+				]
+			}
+		],
+		"snippets": [
+			{
+				"language": "skript",
+				"path": "./snippets/skript.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "20049ce5-d947-4a3b-b60f-eea560195aff",
+		"publisherId": "d44c1668-f98f-47b2-9176-ca8478dbe913",
+		"publisherDisplayName": "Jackwith",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1688606646160,
+		"preRelease": false
+	}
+}

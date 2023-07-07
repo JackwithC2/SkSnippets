@@ -31,7 +31,7 @@
 		"snippets": [
 			{
 				"language": "skript",
-				"path": "./snippets/skript.json"
+				"path": "./snippets/skript/events.json"
 			}
 		]
 	},

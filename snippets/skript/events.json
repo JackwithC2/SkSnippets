@@ -1,0 +1,610 @@
+{
+    "skript.events.attime":{
+        "prefix": "on tool change",
+        "body": ["at 10:00 # at 7am in \"world\"", "\t"]
+    },
+    "skript.events.anvildamage":{
+        "prefix": "on anvil damage",
+        "body": ["on anvil damage:", "\t"]
+    },
+    "skript.events.anvilprepare":{
+        "prefix": "on anvil prepare",
+        "body": ["on anvil prepare:", "\t"]
+    },
+    "skript.events.cloudeffect": {
+        "prefix": "on area cloud effect",
+        "body": ["on area cloud effect:", "\t"]
+    },
+    "skript.events.armswing": {
+        "prefix": "on arm swing",
+        "body": ["on arm swing:", "\t"]
+    },
+    "skript.events.armorchange": {
+        "prefix": "on armor change",
+        "body": ["on armor change:", "\t"]     
+    },
+    "skript.events.bedenter": {
+        "prefix": "on bed enter",
+        "body": ["on bed enter:", "\t"]
+    },
+    "skript.events.bedleave": {
+        "prefix": "on player leaving a bed",
+        "body": ["on player leaving a bed:", "\t"]
+    },
+    "skript.events.blockdamage": {
+        "prefix": "on block damaging",
+        "body": ["on block damaging:", "\t"]
+    },
+    "skript.events.blockfertilize": {
+        "prefix": "on block fertilize",
+        "body": ["on block fertilize:", "\t"]
+    },
+    "skript.events.blockgrowth": {
+        "prefix": "on crop growth",
+        "body": ["on crop growth:", "\t"]
+    },
+    "skript.events.bookedit": {
+        "prefix": "on book edit",
+        "body": ["on book edit:", "\t"]
+    },
+    "skript.events.booksign": {
+        "prefix": "on book sign",
+        "body": ["on book sign:", "\t"]
+    },
+    "skript.events.mine": {
+        "prefix": "on mine",
+        "body": ["on mine", "\t"]
+    },
+    "skript.events.break": {
+        "prefix": "on break",
+        "body": ["on break", "\t"]
+    },
+    "skript.events.bucketempty": {
+        "prefix": "on bucket empty",
+        "body": ["on bucket empty:", "\t"]
+    },
+    "skript.events.bucketfill": {
+        "prefix": "on player filling a bucket",
+        "body": ["on player filling a bucket:", "\t"]
+    },
+    "skript.events.burn": {
+        "prefix": "on burn",
+        "body": ["on burn:", "\t"]
+    },
+    "skript.events.canbuildcheck": {
+        "prefix": "on block can build check",
+        "body": ["on block can build check:", "\t"]
+    },
+    "skript.events.chat": {
+        "prefix": "on chat",
+        "body": ["on chat:", "\t"]
+    },
+    "skript.events.chunkgenerate": {
+        "prefix": "on chunk generate",
+        "body": ["on chunk generate:", "\t"]
+    },
+    "skript.events.chunkload": {
+        "prefix": "on chunk load",
+        "body": ["on chunk load:", "\t"]
+    },
+    "skript.events.chunkunload": {
+        "prefix": "on chunk unload",
+        "body": ["on chunk unload:", "\t"]
+    },
+    "skript.events.click": {
+        "prefix": "on click",
+        "body": ["on click:", "\t"]
+    },
+    "skript.events.combust": {
+        "prefix": "on combust",
+        "body": ["on combust:", "\t"]
+    },
+    "skript.events.command": {
+        "prefix": "on command",
+        "body": ["on command \"/bruh\"", "\t"]
+    },
+    "skript.events.connect": {
+        "prefix": "on connect",
+        "body": ["on connect:", "\t"]
+    },
+    "skript.events.consume": {
+        "prefix": "on consume",
+        "body": ["on consume:", "\t"]
+    },
+    "skript.events.craft": {
+        "prefix": "on craft",
+        "body": ["on craft:", "\t"]
+    },
+    "skript.events.creeperpower": {
+        "prefix": "on creeper power",
+        "body": ["on creeper power:", "\t"]
+    },
+    "skript.events.damage": {
+        "prefix": "on damage",
+        "body": ["on damage:", "\t"]
+    },
+    "skript.events.death": {
+        "prefix": "on death",
+        "body": ["on death:", "\t"]
+    },
+    "skript.events.dispense": {
+        "prefix": "on dispense",
+        "body": ["on dispense of iron block:", "\t"]
+    },
+    "skript.events.drop": {
+        "prefix": "on drop",
+        "body": ["on drop:", "\t"]
+    },
+    "skript.events.eggthrow": {
+        "prefix": "on throw of an egg",
+        "body": ["on throw of an egg:", "\t"]
+    },
+    "skript.events.enchant": {
+        "prefix": "on enchant",
+        "body": ["on enchant:", "\t"]
+    },
+    "skript.events.enchantprepare": {
+        "prefix": "on enchant prepare",
+        "body": ["on enchant prepare:", "\t"]
+    },
+    "skript.events.endermanplace": {
+        "prefix": "on enderman place",
+        "body": ["on enderman place:", "\t"]
+    },
+    "skript.events.endermanpickup": {
+        "prefix": "on enderman pickup",
+        "body": ["on enderman pickup:", "\t"]
+    },
+    "skript.events.sheepeat": {
+        "prefix": "on sheep eat",
+        "body": ["on sheep eat:", "\t"]
+    },
+    "skript.events.sliverfishenter": {
+        "prefix": "silverfish enter",
+        "body": ["silverfish enter:", "\t"]
+    },
+    "skript.events.sliverfishexit": {
+        "prefix": "silverfish exit",
+        "body": ["silverfish exit:", "\t"]
+    },
+    "skript.events.fallingblockfall": {
+        "prefix": "on falling block fall",
+        "body": ["on falling block fall:", "\t"]
+    },
+    "skript.events.fallingblockland": {
+        "prefix": "on falling block land",
+        "body": ["on falling block land:", "\t"]
+    },
+    "skript.events.entitydismount": {
+        "prefix": "on entity dismount",
+        "body": ["on dismount:", "\t"]
+    },
+    "skript.events.entityjump": {
+        "prefix": "on entity jump",
+        "body": ["on entity jump:", "\t"]
+    },
+    "skript.events.entitymount": {
+        "prefix": "on entity mount",
+        "body": ["on mount:", "\t"]
+    },
+    "skript.events.entityportal": {
+        "prefix": "on entity portal",
+        "body": ["on entity portal:", "\t"]
+    },
+    "skript.events.experiencechange": {
+        "prefix": "on experince change",
+        "body": ["on level progress change:", "\t"]
+    },
+    "skript.events.experiencespawn": {
+        "prefix": "on experince spawn",
+        "body": ["on xp spawn:", "\t"]
+    },
+    "skript.events.explode": {
+        "prefix": "on explode",
+        "body": ["on explosion:", "\t"]
+    },
+    "skript.events.explosionprime": {
+        "prefix": "on explosion prime",
+        "body": ["on explosion prime:", "\t"]
+    },
+    "skript.events.fade": {
+        "prefix": "on fade",
+        "body": ["on fade of snow or ice:", "\t"]
+    },
+    "skript.events.fireworkexplode": {
+        "prefix": "on firework explode",
+        "body": ["on firework explode:", "\t"]
+    },
+    "skript.events.fireworkexplodecolor": {
+        "prefix": "on firework explode w/color",
+        "body": ["on firework exploding colored light green:", "\t"]
+    },
+    "skript.events.firstjoin": {
+        "prefix": "on first join",
+        "body": ["on first join:", "\t"]
+    },
+    "skript.events.fishing": {
+        "prefix": "on fishing",
+        "body": ["on fish:", "\t"]
+    },
+    "skript.events.flighttoggle": {
+        "prefix": "on flight toggle",
+        "body": ["on flight toggle:", "\t"]
+    },
+    "skript.events.flow": {
+        "prefix": "on flow",
+        "body": ["on block flow:", "\t"]
+    },
+    "skript.events.form": {
+        "prefix": "on form",
+        "body": ["on form of snow:", "\t"]
+    },
+    "skript.events.fuelburn": {
+        "prefix": "on fuel burn",
+        "body": ["on fuel burning:", "\t"]
+    },
+    "skript.events.gamemodechange": {
+        "prefix": "on gamemode change",
+        "body": ["on gamemode change to adventure:", "\t"]
+    },
+    "skript.events.gildingstatechange": {
+        "prefix": "on gilding state change",
+        "body": ["on toggling gliding:", "\t"]
+    },
+    "skript.events.grow": {
+        "prefix": "on grow",
+        "body": ["on grow # of a tree", "\t"]
+    },
+    "skript.events.handitemswap": {
+        "prefix": "on hand item swap",
+        "body": ["on swap hand items:", "\t"]
+    },
+    "skript.events.heal": {
+        "prefix": "on heal",
+        "body": ["on heal", "\t"]
+    },
+    "skript.events.horsejump": {
+        "prefix": "on horsejump",
+        "body": ["on horse jump:", "\t"]
+    },
+    "skript.events.hungermeterchange": {
+        "prefix": "on hunger meter change",
+        "body": ["on food bar change:", "\t"]
+    },
+    "skript.events.ignition": {
+        "prefix": "on ignition",
+        "body": ["on block ingnite:", "\t"]
+    },
+    "skript.events.inventoryclick": {
+        "prefix": "on inventory click",
+        "body": ["on inventory click:", "\t"]
+    },
+    "skript.events.inventoryclose": {
+        "prefix": "on inventory close",
+        "body": ["on inventory close:", "\t"]
+    },
+    "skript.events.inventoryopen": {
+        "prefix": "on inventory open",
+        "body": ["on inventory open:", "\t"]
+    },
+    "skript.events.inventorypickup": {
+        "prefix": "on inventory pickup",
+        "body": ["on inventory pickup:", "\t"]
+    },
+    "skript.events.inventoryslotchange": {
+        "prefix": "on inventory slot change",
+        "body": ["on inventory slot change:", "\t"]
+    },
+    "skript.events.itembreak": {
+        "prefix": "on item break",
+        "body": ["on tool break:", "\t"]
+    },
+    "skript.events.itemdamage": {
+        "prefix": "on item damage",
+        "body": ["on item damage", "\t"]
+    },
+    "skript.events.itemdespawn": {
+        "prefix": "on item despawn",
+        "body": ["on item despawn of diamond:", "\t"]
+    },
+    "skript.events.itemmend": {
+        "prefix": "on item mend",
+        "body": ["on item mend:", "\t"]
+    },
+    "skript.events.itemmerge": {
+        "prefix": "on item merge",
+        "body": ["on item merge of gold blocks:", "\t"]
+    },
+    "skript.events.itemspawn": {
+        "prefix": "on item spawn",
+        "body": ["on item spawn of iron sword:", "\t"]
+    },
+    "skript.events.join": {
+        "prefix": "on join",
+        "body": ["on join:", "\t"]
+    },
+    "skript.events.jump": {
+        "prefix": "on jump",
+        "body": ["on jump:", "\t"]
+    },
+    "skript.events.kick": {
+        "prefix": "on kick",
+        "body": ["on kick:", "\t"]
+    },
+    "skript.events.languagechange": {
+        "prefix": "on language change",
+        "body": ["on language change:", "\t"]
+    },
+    "skript.events.leavesdecay": {
+        "prefix": "on leaves decay",
+        "body": ["on leaves decay:", "\t"]
+    },
+    "skript.events.levelchange": {
+        "prefix": "on level change",
+        "body": ["on level change:", "\t"]
+    },
+    "skript.events.lightningstrike": {
+        "prefix": "on lightning",
+        "body": ["on lightning:", "\t"]
+    },
+    "skript.events.lootgenerate": {
+        "prefix": "on loot generate",
+        "body": ["on loot generate:", "\t"]
+    },
+    "skript.events.move": {
+        "prefix": "on player move",
+        "body": ["on entity move:", "\t"]
+    },
+    "skript.events.moveon": {
+        "prefix": "on stepping on stone",
+        "body": ["on stepping on stone:", "\t"]
+    },
+    "skript.events.physics": {
+        "prefix": "on block physics",
+        "body": ["on block physics:", "\t"]
+    },
+    "skript.events.pickup": {
+        "prefix": "on pick up",
+        "body": ["on pick up:", "\t"]
+    },
+    "skript.events.pigzap": {
+        "prefix": "on pig zap",
+        "body": ["on pig zap:", "\t"]
+    },
+    "skript.events.pistonextend": {
+        "prefix": "on piston extend",
+        "body": ["on piston extend:", "\t"]
+    },
+    "skript.events.pistionretract": {
+        "prefix": "on piston retract",
+        "body": ["on piston retract:", "\t"]
+    },
+    "skript.events.place": {
+        "prefix": "on place",
+        "body": ["on place:", "\t"]
+    },
+    "skript.events.chunkenter": {
+        "prefix": "on player enters a chunk",
+        "body": ["on player enters a chunk:", "\t"]
+    },
+    "skript.events.deepsleep": {
+        "prefix": "on player deep sleeping",
+        "body": ["on player deep sleeping:", "\t"]
+    },
+    "skript.events.trade": {
+        "prefix": "on player trade",
+        "body": ["on player trade:", "\t"]
+    },
+    "skript.events.worldchange": {
+        "prefix": "on player world change",
+        "body": ["on player world change:", "\t"]
+    },
+    "skript.events.portal": {
+        "prefix": "on player portal",
+        "body": ["on player portal:", "\t"]
+    },
+    "skript.events.portalcreate": {
+        "prefix": "on portal create",
+        "body": ["on portal create:", "\t"]
+    },
+    "skript.events.portalenter": {
+        "prefix": "on portal enter",
+        "body": ["on portal enter:", "\t"]
+    },
+    "skript.events.preparecraft": {
+        "prefix": "on preparing craft of torch",
+        "body": ["on preparing craft of torch:", "\t"]
+    },
+    "skript.events.pressureplate": {
+        "prefix": "on step on pressure plate",
+        "body": ["on step on pressure plate:", "\t"]
+    },
+    "skript.events.projectilecollide": {
+        "prefix": "on projectile collide",
+        "body": ["on projectile collide:", "\t"]
+    },
+    "skript.events.projectilehit": {
+        "prefix": "on projectile hit",
+        "body": ["on projectile hit:", "\t"]
+    },
+    "skript.events.quit": {
+        "prefix": "on quit",
+        "body": ["on quit:", "\t"]
+    },
+    "skript.events.redstone": {
+        "prefix": "on redstone change",
+        "body": ["on redstone change:", "\t"]
+    },
+    "skript.events.regionenter": {
+        "prefix": "on region enter",
+        "body": ["on region enter:", "\t"]
+    },
+    "skript.events.regionleave": {
+        "prefix": "on region exit",
+        "body": ["on region exit:", "\t"]
+    },
+    "skript.events.resourcepackrequestresponse": {
+        "prefix": "on resource pack request response",
+        "body": ["on resource pack request response:", "\t"]
+    },
+    "skript.events.respawn": {
+        "prefix": "on respawn",
+        "body": ["on respawn:", "\t"]
+    },
+    "skript.events.resurrectattempt": {
+        "prefix": "on resurrect attempt",
+        "body": ["on resurrect attempt:", "\t"]
+    },
+    "skript.events.riptide": {
+        "prefix": "on riptide",
+        "body": ["on riptide:", "\t"]
+    },
+    "skript.events.skriptload": {
+        "prefix": "on load",
+        "body": ["on load:", "\t"]
+    },
+    "skript.events.skriptunload": {
+        "prefix": "on unload",
+        "body": ["on unload:", "\t"]
+    },
+    "skript.events.serverlistping": {
+        "prefix": "on server list ping",
+        "body": ["on server list ping:", "\t"]
+    },
+    "skript.events.serverstart": {
+        "prefix": "on skript start",
+        "body": ["on skript start:", "\t"]
+    },
+    "skript.events.serverstop": {
+        "prefix": "on server stop",
+        "body": ["on server stop:", "\t"]
+    },
+    "skript.events.sheepregrowwool": {
+        "prefix": "on sheep grow wool",
+        "body": ["on sheep grow wool:", "\t"]
+    },
+    "skript.events.shoot": {
+        "prefix": "on shoot",
+        "body": ["on shoot:", "\t"]
+    },
+    "skript.events.signchange": {
+        "prefix": "on sign change",
+        "body": ["on sign change:", "\t"]
+    },
+    "skript.events.slimesplit": {
+        "prefix": "on slime split",
+        "body": ["on slime split:", "\t"]
+    },
+    "skript.events.smelt": {
+        "prefix": "on smelt",
+        "body": ["on smelt:", "\t"]
+    },
+    "skript.events.sneaktoggle": {
+        "prefix": "on sneak toggle",
+        "body": ["on sneak toggle:", "\t"]
+    },
+    "skript.events.spawn": {
+        "prefix": "on spawn",
+        "body": ["on spawn # of a zombie:", "\t"]
+    },
+    "skript.events.spawnchange": {
+        "prefix": "on spawn change",
+        "body": ["on spawn change:", "\t"]
+    },
+    "skript.events.spectate": {
+        "prefix": "on player start spectating of a zombie:",
+        "body": ["on player start spectating of a zombie:", "\t"]
+    },
+    "skript.events.spongeabsorb": {
+        "prefix": "on sponge absorb",
+        "body": ["on sponge absorb:", "\t"]
+    },
+    "skript.events.spread": {
+        "prefix": "on spread",
+        "body": ["on spread:", "\t"]
+    },
+    "skript.events.sprinttoggle": {
+        "prefix": "on sprint toggle",
+        "body": ["on sprint toggle:", "\t"]
+    },
+    "skript.events.swimtoggle": {
+        "prefix": "on swim toggle",
+        "body": ["on swim toggle:", "\t"]
+    },
+    "skript.events.tame": {
+        "prefix": "on tame",
+        "body": ["on tame:", "\t"]
+    },
+    "skript.events.target": {
+        "prefix": "on entity target",
+        "body": ["on entity target:", "\t"]
+    },
+    "skript.events.teleport": {
+        "prefix": "on teleport",
+        "body": ["on teleport:", "\t"]
+    },
+    "skript.events.toolchange": {
+        "prefix": "on player's held item change",
+        "body": ["on player's held item change:", "\t"]
+    },
+    "skript.events.vechiclecreate": {
+        "prefix": "on vehicle create",
+        "body": ["on vehicle create:", "\t"]
+    },
+    "skript.events.vechicledamage": {
+        "prefix": "on vehicle damage",
+        "body": ["on vehicle damage:", "\t"]
+    },
+    "skript.events.vechicledestory": {
+        "prefix": "on vehicle destroy",
+        "body": ["on vehicle destroy:", "\t"]
+    },
+    "skript.events.vechicleenter": {
+        "prefix": "on vehicle enter",
+        "body": ["on vehicle enter:", "\t"]
+    },
+    "skript.events.vechicleexti": {
+        "prefix": "on vehicle exit",
+        "body": ["on vehicle exit:", "\t"]
+    },
+    "skript.events.weatherchange": {
+        "prefix": "on weather change: # to sunny",
+        "body": ["on weather change: # to sunny", "\t"]
+    },
+    "skript.events.worldinit": {
+        "prefix": "on world init",
+        "body": ["on world init:", "\t"]
+    },
+    "skript.events.worldload": {
+        "prefix": "on world load",
+        "body": ["on world load:", "\t"]
+    },
+    "skript.events.worldsave": {
+        "prefix": "on world saving",
+        "body": ["on world saving:", "\t"]
+    },
+    "skript.events.worldunload": {
+        "prefix": "on world unload",
+        "body": ["on world unload:", "\t"]
+    },
+    "skript.events.zombiebreakdoor": {
+        "prefix": "on zombie breaking a wood door",
+        "body": ["on zombie breaking a wood door:", "\t"]
+    },
+    "skript.events.periodical1": {
+        "prefix": "every x second",
+        "body": ["every 2 seconds:", "\t"]
+    },
+    "skript.events.perdioical2": {
+        "prefix": "every minecraft x",
+        "body": ["every minecraft hour:", "\t"]
+    },
+    "skript.events.perdioical3": {
+        "prefix": "every 2 seconds in \"world\":",
+        "body": ["every 2 seconds in \"world\":", "\t"]
+    },
+    "skript.events.perdioical4": {
+        "prefix": "every minecraft x in \"flatworld\":",
+        "body": ["every minecraft x in \"flatworld\":", "\t"]
+    }
+}

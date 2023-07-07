@@ -11,10 +11,16 @@
 # ADDED
 
 - Updated the configuration for readme
-- Changed Snippets
+- Updated snippets!
 
 # REMOVED
 
 - ?
 
-> Changes for 1.0.3 [COMING SOON!]
+> Changes for 1.0.3 [COMING SOON!]:
+
+# Planing
+
+- Condtion Support
+- Any upcoming issues!
+- More Soon!
